@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block %}
+
+<ul>
+    {{% for name in registrants %}}
+    <li>
+        {{name}}
+        
+    </li>
+</ul>
+
+{% endblock %}
